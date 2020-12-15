@@ -27,6 +27,7 @@ The goals / steps of this project are the following:
 [image7]: ./test_img2/3.jpg "Traffic Sign 4"
 [image8]: ./test_img2/4.jpg "Traffic Sign 5"
 [image9]: ./test_img2/seventy.jpg "Traffic Sign 6"
+[image10]: ./examples/softmax.png "Softmax Result"
 
 
 ---
@@ -144,9 +145,9 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8] ![alt text][image9]
 
-The result of the model for these images visualized in cell 20.
+These images are very similiar with the train data. Only "Speed Limit 70" is different from training set because it is not a real photo. Also some of the images are a little bit dark.
 
-#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+#### 2. Model's predictions on these new traffic signs
 
 Here are the results of the prediction:
 
@@ -161,7 +162,7 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%.
 
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+#### 3. Softmax probabilities 
 
 The code for making predictions on my final model is located in the 20th cell of the Ipython notebook.
 
@@ -176,3 +177,5 @@ Example result for " Keep right "  traffic sing.
 | .0					| Yield											|
 | .0	      			| Bumpy Road					 				|
 | .0				    | Slippery Road      							|
+
+![alt text][image10]
