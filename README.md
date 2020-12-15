@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/distribution.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/normalize.png "Random Noise"
+[image3]: ./examples/normalize.PNG "Random Noise"
 [image4]: ./test_img2/0.jpg "Traffic Sign 1"
 [image5]: ./test_img2/1.jpg "Traffic Sign 2"
 [image6]: ./test_img2/2.jpg "Traffic Sign 3"
